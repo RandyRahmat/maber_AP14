@@ -23,3 +23,4 @@ def error(text):
     
 def success(text):
     print(f"✅  {text}")
+    
