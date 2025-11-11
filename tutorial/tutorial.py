@@ -63,7 +63,7 @@ def arithmetic_tutorial():
     while True:
         lanjut_ulang_arithmetic = input("Tekan [Enter] untuk memulai! Ketik [Ulang] untuk melihat ulang tutorial: ")
         if lanjut_ulang_arithmetic == "":
-            break
+            return True
         elif lanjut_ulang_arithmetic.lower() == "ulang":
             arithmetic_tutorial()
         else:
